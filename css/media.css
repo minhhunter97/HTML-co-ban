@@ -1,0 +1,15 @@
+@media screen and (max-width: 900px){
+	#main-content{
+		width: 100%;
+	}
+
+	#hot{
+		width:100%;
+	}
+}
+
+@media screen and (max-height:600px){
+	#MENU{
+		height: 20px;
+	}
+}

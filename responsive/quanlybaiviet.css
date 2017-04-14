@@ -1,0 +1,9 @@
+@media screen all(max-width: 478px){
+	body{
+		max-width: 100%;
+	}
+
+	#main #quanlybaiviet{
+		width: 100%;
+	}
+}

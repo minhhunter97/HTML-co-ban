@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	box-sizing: border-box;
+	width: 600px;
+	margin: 50px auto 0;
+	box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.2);
+	padding-bottom: 40px;
+	border-radius: 5px;
+	border: 2px solid #fff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    /* box-shadow: ngang dọc độ-tràn-màu khoảng-cách mã-màu; */
+}
+
+#dangky{
+	color: #FFFFFF;
+	box-sizing: border-box;
+	background: #1abc9c;
+	font-family: Arial;
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+table{
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#nhap{
+	margin: 10px;
+}
+
+#nhap input {
+	display:block;
+	border: none;
+	padding: 10px 0;
+	border-bottom: solid 1px #1abc9c;
+	background: linear-gradient(to bottom, rgba(300,300,300,0) 96%, #1abc9c 4%);
+	background-position: -300px 0;
+	background-size: 300px 100%;
+	background-repeat: no-repeat;
+	color: #0e6252;
+	transition: 1s ease all;
+}
+
+
+
+#nhap input:focus, #nhap input:valid{
+	box-shadow: none;
+	outline: none;
+	background-position: 0 0;
+}
+
+#ngaysinh{
+	margin: 10px;
+	width: 100px;
+}
+
+#ngaysinh input{
+	display:block;
+	border: none;
+	padding: 10px 0;
+	border-bottom: solid 1px #1abc9c;
+	background: linear-gradient(to bottom, rgba(150,150,150,0) 96%, #1abc9c 4%);
+	background-position: -100px 0;
+	background-size: 100px 100%;
+	background-repeat: no-repeat;
+	color: #0e6252;
+	transition: 1s ease all;
+}
+
+select{
+	border:none;
+	font-size: 20px;
+	margin-right: 20px;
+	outline:none;
+}
+
+#ngaysinh input:focus, #nhap input:valid{
+	box-shadow: none;
+	outline: none;
+	background-position: 0 0;
+}
+
+#button{
+	padding-top: 50px;
+}
+
+#button input{
+	border:none;
+	background: #1abc9c;
+	cursor: pointer;
+	border-radius: 3px;
+	padding: 6px;
+	width: 20%;
+	color: white;
+	text-align: center;
+	margin-left: 110px;
+	box-shadow: 0 3px 6px 0 rgba(0,0,0,0.5);
+}
+
+#button input:hover{
+	transform: translateY(-5px);
+	box-shadow: 0 6px 6px 0 rgba(0,0,0,0.5);
+}
+
